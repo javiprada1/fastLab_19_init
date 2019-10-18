@@ -1,28 +1,30 @@
-# fastLab_19_init
+# FastLab: Init
 [CITE HUB] Our fast Lab to test ours capacities and habilities how web developers.
 
 
-# Foobar
+# Challenge
 
-Foobar is a Python library for dealing with word pluralization.
+The main objective of this first FastLab is that we learn a way to work collaboratively with defined objectives.
+
+We will also validate through extreme programming the knowledge about the Client / Server model.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the Command Palette to execute Git:Clone.
 
-```bash
-pip install foobar
-```
+Add this url: https://github.com/javiprada1/fastLab_19_init.git to clone this project in your local.
 
-## Usage
+Deploy in MySQL the DB locate in /databases.
 
-```python
-import foobar
+Enjoy development.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+
+## Requirements
+
+- XAMPP (MySQL, Apache y PHP)
+- Visual Studio Code
+- Git
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
