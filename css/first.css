@@ -1,53 +1,48 @@
-
-#central {
-    width: 996px;
-    margin: 15px auto;
-    font-size: 1em;
-    background-color: aquamarine;
+body{
+    margin: 40px;
+    background-color: rgb(201, 197, 197);
 }
 
-footer {
-    margin: 10px;
-    text-align: center;
-    clear: both;
-}
-
-
-
-/* para 980px o menos */
-@media screen and (max-width:980px) {
-    #central {
-        width: 98%;
-    }
-
-    section {
-        width: 68%;
-    }
-}
-
-/* para 700px o menos */
-@media screen and (max-width:700px) {
-
-    section {
-        float: none;
-        width: 96%;
-    }
-
-    section {
-        font-size: 1.2em;
-    }
-
-}
-
-/* para 480px o menos */
-@media screen and (max-width:480px) {
+header{
+    background-color:white;opacity: 0.8;
+    color:black;
+    height: 100px;
    
-    section {
-        font-size: 1.5em;
-    }
+}
 
-    section {
-        width: 94%;
-    }
+header img{
+    float:left;
+    margin-left: 20px;
+}
+header h1{
+    text-align: center;
+    color: black;
+    font-size: 60px;
 
+
+}
+#central{
+    background-image: url("../images/cabecera.jpg");
+    height: 650px;
+}
+section{
+    background-color: rgb(255, 255, 255);opacity: 0.8;
+}
+section p{
+    font-size: 20px;
+    padding: 20px;
+    margin:40px;
+    text-align: center;
+   
+}
+
+footer{
+    background-color: white;opacity: 0.8;
+    position :relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 12px;
+    
 }
